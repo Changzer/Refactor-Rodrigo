@@ -1,20 +1,20 @@
-function returnRandomNumber() {
+function returnRandNum() {
   return Math.round(Math.random() * 100);}
 
 const x = `Seu número é`
 
-function sumToRandomNumber(num) {
-  return x+` ${returnRandomNumber() + num}!`;
+function sum2RandNum(num) {
+  return x+` ${returnRandNum() + num}!`;
 }
 
-function subtractRandomNumber(num) {
-  return x+` ${returnRandomNumber() - num}!`;
+function subtractRandNum(num) {
+  return x+` ${returnRandNum() - num}!`;
 }
 
-function multiplyToRandomNumber(num) {
-  return x+` ${returnRandomNumber() * num}!`;
+function multiply2RandNum(num) {
+  return x+` ${returnRandNum() * num}!`;
 }
 
-function divideRandomNumber(num) {
-  return x+` ${returnRandomNumber() / num}!`;
+function divideRandNum(num) {
+  return x+` ${returnRandNum() / num}!`;
 }
