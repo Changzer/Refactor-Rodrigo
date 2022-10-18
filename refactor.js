@@ -3,18 +3,10 @@ function returnRandNum() {
 
 const x = `Seu número é`
 
-function sum2RandNum(num) {
-  return x+` ${returnRandNum() + num}!`;
-}
+const sum2RandNum = (n) => x+` ${returnRandNum() + n}!`;
 
-function subtractRandNum(num) {
-  return x+` ${returnRandNum() - num}!`;
-}
+const subtractRandNum = (n) => x+` ${returnRandNum() - n}!`;
 
-function multiply2RandNum(num) {
-  return x+` ${returnRandNum() * num}!`;
-}
+const multiply2RandNum = (n) => x+` ${returnRandNum() * n}!`;
 
-function divideRandNum(num) {
-  return x+` ${returnRandNum() / num}!`;
-}
+const divideRandNum = (n) => x+` ${returnRandNum() / n}!`;
