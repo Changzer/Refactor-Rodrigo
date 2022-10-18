@@ -1,12 +1,11 @@
-function returnRandNum() {
-  return Math.round(Math.random() * 100);}
+const returnRandNum = () => Math.round(Math.random() * 100);
 
-const x = `Seu número é`
+const randCalc = () => `Seu número é` + `${returnRandNum()} `;
 
-const sum2RandNum = (n) => x+` ${returnRandNum() + n}!`;
+const sum2RandNum = (n) => `${randCalc() + n}!`;
 
-const subtractRandNum = (n) => x+` ${returnRandNum() - n}!`;
+const subtractRandNum = (n) => `${randCalc() - n}!`;
 
-const multiply2RandNum = (n) => x+` ${returnRandNum() * n}!`;
+const multiply2RandNum = (n) => `${randCalc() * n}!`;
 
-const divideRandNum = (n) => x+` ${returnRandNum() / n}!`;
+const divideRandNum = (n) => `${randCalc() / n}!`;
